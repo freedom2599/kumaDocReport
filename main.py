@@ -89,17 +89,7 @@ def handle_credentials():
     if not Company:
         Company = input("输入公司名称: ") or '网站监测项目组'
     if not Company_English_name:
-<<<<<<< Updated upstream
-<<<<<<< HEAD
         Company_English_name = input("输入公司英文名称，例如（Suzhou Hs Cybersecurity Technology Co., Ltd.): ") or 'Website Monitoring Project Team'
-=======
-        Company_English_name = input("输入公司英文名称，例如(Suzhou Hs Cybersecurity Technology Co., Ltd.): ") or 'Website Monitoring Project Team'
->>>>>>> 317580bbc810e59f108c5c00562539399edcb1b7
-=======
-        Company_English_name = input("输入公司英文名称，例如(Suzhou Hs Cybersecurity Technology Co., Ltd.): ") or 'Website Monitoring Project Team'
-        Company_English_name = input("输入公司英文名称，例如（Suzhou Hs Cybersecurity Technology Co., Ltd.): ") or 'Website Monitoring Project Team'
->>>>>>> Stashed changes
-
     password = getpass.getpass(f"输入{username}的密码: ")
     return url, username, password,Company, Company_English_name,save_needed
 
